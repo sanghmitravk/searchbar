@@ -1,15 +1,16 @@
 .SearchBar {
   width: 18.75rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 $accent;
   margin: auto;
+
   .Card {
     padding: 0.8rem;
-    border-bottom: 0.002rem solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.002rem solid $accent;
     min-height: 6.25rem;
   }
 
   .Card:hover {
-    background-color: antiquewhite;
+    background-color: $hover;
     cursor: pointer;
   }
 

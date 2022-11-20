@@ -1,3 +1,4 @@
+// list of item which is being shown in scrollbar
 export const list = [
   {
     id: "123-s2-546",
