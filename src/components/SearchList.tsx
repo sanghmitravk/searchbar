@@ -63,7 +63,6 @@ export const SearchList = ({ inputText }: any) => {
                         aria-pressed={index === state.selectedIndex}
                         tabIndex={index}
                         onKeyPress={(e) => {
-                            console.log('press')
                             if (e.key === 'Enter') {
                                 dispatch({ type: 'select', payload: index });
                                 (e.target as HTMLElement).blur();
